@@ -16,9 +16,8 @@
         border-radius: 5px;
       }
       body{
-        background-image: url(../public/img/background.jpg) !important; 
-        /*background: rgb(55,55,55) !important;
-        background: rgb(48, 20, 1) !important;*/
+        background: #2D3142 !important;
+        /*background: rgb(48, 20, 1) !important;*/
       }
       #imageView { border: 1px solid #000; }
       #imageTemp { position: absolute; top: 1px; left: 1px; }
@@ -35,7 +34,7 @@
     overflow: hidden;
     white-space: nowrap;
 }
-.container .btn.btn-sm{
+.container .btn.btn-sm, button{
     background: #CCC;
     box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.5);
     color: #000;
@@ -52,6 +51,10 @@
 .container .btn.btn-sm:active{
    background: #ccc; 
 }
+.container h1 {
+  color: #CCC;
+  margin: 20px auto;
+}
 label{
     color: #fff;
 }
@@ -64,16 +67,16 @@ label{
 	<div class="container">
     <h1>White&ndash;Board</h1>
         <p style="" class="">
-        <button type="button" class="btn btn-warning btn-sm" value="pencil" id="pencil-button"><img src="../public/img/pencil.png" width="44" height="24" alt="Pencil"></button>
-        <button type="button" class="btn btn-warning btn-sm" value="rect" id="rect-button"><img src="../public/img/tool-rect.svg" width="44" height="24" alt="Rectangle"></button>
-        <button type="button" class="btn btn-warning btn-sm" value="circle" id="circle-button"><img src="../public/img/tool-circle.svg" width="44" height="24" alt="Circle"></button>
-        <button type="button" class="btn btn-warning btn-sm" value="ellipse" id="ellipse-button"><img src="../public/img/oval.png" width="44" height="24" alt="Eclipse"></button>
-        <button type="button" class="btn btn-warning btn-sm" value="line" id="line-button"><img src="../public/img/tool-line.svg" width="44" height="24" alt="Line"></button>
-        <button type="button" class="btn btn-warning btn-sm" value="text" id="text-button"><img src="../public/img/tool-text.png" width="44" height="24" alt="Text"></button>
-        <button type="button" class="btn btn-warning btn-sm" id="clear-all"><img src="../public/img/clear.jpg" width="44" height="24" alt="Clear"></button>
-        <button class="button" data-sharer="email" data-title="Awesome Url" data-url="https://ellisonleao.github.io/sharer.js/" data-subject="Hey! Check out that URL" data-to="some@email.com">Share via Email</button>
-        <button class="button" data-sharer="whatsapp" data-title="Checkout Sharer.js!" data-url="https://ellisonleao.github.io/sharer.js/">Share on Whatsapp</button>
-        <button class="button" data-sharer="facebook" data-hashtag="hashtag" data-url="https://ellisonleao.github.io/sharer.js/">Share on Facebook</button>
+        <button type="button" class="btn btn-warning btn-sm" value="pencil" id="pencil-button">Pencil</button>
+        <button type="button" class="btn btn-warning btn-sm" value="rect" id="rect-button">Rectangle</button>
+        <button type="button" class="btn btn-warning btn-sm" value="circle" id="circle-button">Circle</button>
+        <button type="button" class="btn btn-warning btn-sm" value="ellipse" id="ellipse-button">Eclipse</button>
+        <button type="button" class="btn btn-warning btn-sm" value="line" id="line-button">Line</button>
+        <button type="button" class="btn btn-warning btn-sm" value="text" id="text-button">Text</button>
+        <button type="button" class="btn btn-warning btn-sm" id="clear-all">Clear</button>
+        <button class="button" data-sharer="email" data-title="Awesome Url" data-url="https://whiteboardtonecas.herokuapp.com/" data-subject="tonecasdossantosa@gmail.com" data-to="some@email.com">Share via Email</button>
+        <button class="button" data-sharer="whatsapp" data-title="Checkout Sharer.js!" data-url="https://whiteboardtonecas.herokuapp.com/">Share on Whatsapp</button>
+        <button class="button" data-sharer="facebook" data-hashtag="hashtag" data-url="https://whiteboardtonecas.herokuapp.com/">Share on Facebook</button>
         <label for="colour" style="position:absolute;">Colour : </label>
         <input id="colour-picker" value="#000000" style="width:80px;" class="jscolor {width:243, height:150, position:'right',
     borderColor:'#FFF', insetColor:'#FFF', backgroundColor:'#666'}">
