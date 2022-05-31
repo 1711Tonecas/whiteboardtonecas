@@ -1,0 +1,13 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+    #colorSelect {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #colorSelect {
+        margin-bottom: 5%;
+    }
+}
